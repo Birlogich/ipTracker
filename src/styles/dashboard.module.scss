@@ -1,0 +1,53 @@
+.dashboard {
+   display: flex;
+   width: 77.08vw;
+   padding: 32px;
+   background: var(--white);
+   justify-content: space-between;
+   z-index: 1000;
+   border-radius: 15px;
+   gap: 35px;
+   box-shadow: 0px 50px 50px -25px rgba(0, 0, 0, 0.1);
+
+   @media (max-width: 768px) {
+      flex-direction: column;
+   }
+   & > div {
+      display: flex;
+      text-align: left;
+      justify-content: flex-start;
+      flex-direction: column;
+      padding-right: 40px;
+      width: 25%;
+      @media (max-width: 768px) {
+         width: 100%;
+         align-items: center;
+         padding: 0;
+      }
+
+      & span:first-child {
+         color: #969696;
+         font-size: 12px;
+         font-weight: 700;
+         line-height: 14px;
+         letter-spacing: 1.75px;
+         margin-bottom: 15px;
+      }
+
+      & span:last-child {
+         color: var(--very-dark);
+         font-family: Rubik;
+         font-size: 26px;
+         font-weight: 500;
+         line-height: 30px;
+         letter-spacing: -0.23px;
+      }
+
+      &:not(:last-child) {
+         border-right: 1px solid #f0f0f0;
+         @media (max-width: 768px) {
+            border: none;
+         }
+      }
+   }
+}

@@ -1,0 +1,45 @@
+.form {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   max-width: 555px;
+   margin-bottom: 6vw;
+   flex: 1 1 auto;
+   border-radius: 15px;
+   position: relative;
+   input {
+      max-width: 497px;
+      padding: 18px 24px;
+      background: var(--white);
+      border: none;
+      flex: 1 1 auto;
+      color: var(--dark);
+   }
+
+   button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 58px;
+      aspect-ratio: 1;
+      background-color: var(--black);
+      border-radius: 0 15px 15px 0;
+      transition: all 0.2s linear;
+
+      &:hover {
+         opacity: 0.7;
+      }
+
+      &:disabled {
+         opacity: 0.5;
+         &:hover {
+            opacity: 0.7;
+         }
+      }
+   }
+}
+
+.inputWrapper {
+   display: flex;
+   width: 100%;
+}
