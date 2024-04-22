@@ -27,7 +27,7 @@ This project is an IP tracker web application developed as a solution to the IP 
 
 ## Deploy of this project
 
-- [Vercel](https://urlshortener-kohl.vercel.app/)
+- [Vercel](https://ip-tracker-ten-alpha.vercel.app/)
 
 ## My social networks
 
