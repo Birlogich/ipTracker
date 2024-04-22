@@ -1,4 +1,4 @@
-# URL Shortener App
+# IP Tracker
 
 This project is an IP tracker web application developed as a solution to the IP Address Tracker Challenge from Frontend Mentor. The app allows users to track and visualize IP addresses on an interactive map, providing details about the location, ISP, and other relevant information.
 
